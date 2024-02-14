@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+              <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/pages/sobre-a-clinica.html">Sobre a clínica</a></li>
+                <li><a href="/pages/atendimiento.html">Horario de atendimento</a></li>
+                <li><a href="/pages/contato.html">Contato</a></li>
+              </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="/img/contacto.png" width="150px" height="150" alt="Clinica Rubi">
+            </div>
+    
+            <div class="content">
+              <form autocomplete="on">
+                <fieldset>
+                  <label for="fname">Nome:</label>
+                  <input type="text" name="name" placeholder="Ingresse seu nome" required>
+                  <label for="flast-name">Sobrenome:</label>
+                  <input type="text" name="flast-name" placeholder="Ingresse seu sobrenome" required>
+                  <label for="femail">E-mail:</label>
+                  <input type="email" name="femail" placeholder="Ingresse seu e-mail" required>
+                  <label for="fphone">Telefone:</label>
+                  <input type="tel" name="fphone" placeholder="Ingresse seu Telefone">
+                  <textarea name="ftextarea" id="ftextarea" cols="30" rows="10" style="resize: none"></textarea>
+                </fieldset>
+                <div class="botones">
+                  <input class="envio" type="submit" value="Enviar" name="fsubmit" />
+                  <input class="resetear" type="reset" value="Limpar"/>
+                </div>
+              </form>
+            </div>
+    
+            <div class="footer">
+                <div class="footer-contatos">
+                    <h2>Informações de contato</h2>
+                    <p><a href="tel:11 4563 7894"> 11 4563 7894</a></p>
+                    <p><a href="mailto:contato@esteticaprueba.com.br">contato@esteticaprueba.com.br</a></p>
+                  </div>
+          
+                  <div class="footer-horarios">
+                    <h2>
+                      Horarios de Atendimento
+                    </h2>
+                    <p>Segunda a Sábado – 9:00 às 18:00</p>
+                  </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
